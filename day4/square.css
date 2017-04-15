@@ -1,0 +1,14 @@
+#outPopUp {
+  position: absolute;
+  width: 30vmin;
+  height: 30vmin;
+  top: 30vh;
+  left: 40vw;
+ 
+  background: red;
+    color: white;
+    border: 3px solid black;
+}
+#hi{
+    text-align: center;
+}
