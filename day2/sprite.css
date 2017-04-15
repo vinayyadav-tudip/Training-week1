@@ -1,0 +1,11 @@
+#first {
+    width: 125px;
+    height: 125px;
+    background: url(thums.jpg) 0 0;
+}
+
+#next {
+    width: 125px;
+    height: 125px;
+    background: url(thums.jpg) 123px 0;
+}
