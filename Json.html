@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON Assignment</title>
+	<script src="jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+	var LikeDislike={"like":0,"dislike":0};
+	 // function like(){
+  //              var x=LikeDislike.like;
+  //              x=x+1;
+  //             document.getElementById("in1").innerHTML=x;
+  //            }
+    $(document).ready(function(){
+        $("#btn1").on('click',function(){
+          LikeDislike["like"]+=1;
+          $("#in1").val(LikeDislike["like"]);
+        });
+       $("#btn2").on('click',function(){
+          LikeDislike["dislike"]+=1;
+          $("#in2").val(LikeDislike["dislike"]);
+      });
+    });
+    </script>         
+</head>
+<body>
+<div id="div1">
+	<div><img src="rock.jpg" alt="rock" id="img1"></div>
+	<div id="div2">
+	<button type="button"  name="button1" value="LIKE" id="btn1">Like</button>     <input type="text" name="likes" id="in1"><br><br>
+	<input type="button" onclick="dislike()" name="button1" value="DisLike" id="btn2">  <input type="text" name="dislike" id="in2">
+	</div>
+</div>
+
+</body>
+</html>
