@@ -1,0 +1,67 @@
+#bd{
+	
+}
+#d{
+	position: absolute;
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: auto;
+}
+#d1{
+	position: absolute;
+	max-width: 100%;
+	border: 1px solid black;
+	background-color: lightblue;
+	padding: 0.5em;
+	height: 30%;
+	margin-left: 39%;
+	margin-top: 15%;
+	margin-bottom: 10%
+	display: block;
+	clear: both;
+}
+#d2{
+	clear: left;
+    position: relative;
+    display: block;
+    margin-top: 30%;
+    margin-left: 42%;
+}
+#in1{
+	position: relative;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	padding: 0.2em;
+}
+
+#in2{
+	position: relative;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	padding: 0.2em;
+	margin-left: 10.5%;
+}
+
+#in3{
+	position: relative;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	padding: 0.2em;
+	margin-left: 6%;
+}
+table,th,td{
+	position: relative;
+	border: 1px solid black;
+	padding: 0.5em;
+	border-collapse: collapse;
+}
+
+#btn{
+	position: absolute;
+	margin-left: 37%;
+    margin-top: 10%;
+    background-color: #795548;
+    color: aliceblue;
+}
+
